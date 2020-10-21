@@ -7,6 +7,10 @@
 - Used everywhere
   - APIs, databases, config, pipelines, eventsystems, data viz
 
+# JSON for communication in web systems
+
+![](./img/week2-json-web-architecture.png)
+
 # JSON ubiquity
 
 - The de facto format on the web. Come from JavaScript.
