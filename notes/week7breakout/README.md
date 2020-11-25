@@ -10,7 +10,8 @@ We're going to use Heroku to host our API in the cloud to make it accessible fro
 4. Add the *requirements.txt* and *Procfile* files (from this directory) to your api project directory.
     - *requirements.txt* - tells Heroku which third party libraries are required
     - *Procfile* - tells Heroku how to run your app
-5. Deploy your app to Heroku. You should see instructions in your dashboard looking similar to this:
+5. Add/commit powerplants.db to your git repo (you'll need to remove it from the .gitignore file first)
+6. Deploy your app to Heroku. You should see instructions in your dashboard looking similar to this:
 
     ```python
     heroku git:remote -a <your app name>
