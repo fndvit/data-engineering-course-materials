@@ -1,4 +1,6 @@
-# R on Heroku
+# Week #9 - Running R scripts
+
+## R on Heroku
 
 1. Create a new directory for your project with a `hello.R` file in it. 
 
@@ -31,7 +33,7 @@
     heroku run Rscript hello.R
     ```
 
-# R in Python
+## R in Python
 
 1. Add an app.py file to your project:
 
@@ -57,7 +59,7 @@
 2. Run your Python script and you should see the output from your `hello.R` script
     - Windows you'll need to add your R bin folder to PATH (ask me for help with this)
 
-# R in Python on Heroku
+## R in Python on Heroku
 
 1. Add Python to your Heroku buildpacks list:
 
